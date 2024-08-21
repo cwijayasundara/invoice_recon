@@ -1,0 +1,6 @@
+python-dotenv
+langchain_community
+langchain-ollama
+unstructured[all-docs]
+chromadb
+nltk
