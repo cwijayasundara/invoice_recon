@@ -5,10 +5,8 @@ from langchain_core.prompts import ChatPromptTemplate
 
 template = prompt_text
 
-print(template)
-
-contract_loc = "docs/Contracts/20230317_The_City_of_Seattle_Original_Contract_Award.pdf"
-invoice_loc ="docs/Invoices/424216.pdf"
+contract_loc = "docs/city_of_seattle_wa/Contracts/20230317_the_city_of_seattle_original_contract_award.pdf"
+invoice_loc ="docs/city_of_seattle_wa/Invoices/424216.pdf"
 
 contract_content = get_content(contract_loc)
 
